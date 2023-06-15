@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Container, } from "./styles";
-import { Link } from "react-router-dom";
 import {FiArrowLeft, FiMail, FiUser, FiLock, FiCamera} from 'react-icons/fi';
 import { Input } from "../../components/Input";
 import { Button } from "../../components/Button";
@@ -9,7 +8,6 @@ import { Avatar } from "./styles";
 import {useAuth} from '../../hooks/auth'
 import avatarPlaceholder from '../../assets/avatar_placeholder.svg'
 import { api } from "../../services/api";
-import { ButtonText } from "../../components/ButtonText";
 import { useNavigate } from "react-router-dom";
 
 export function Profile(){

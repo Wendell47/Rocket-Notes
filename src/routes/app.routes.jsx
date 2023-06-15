@@ -1,7 +1,7 @@
 import {Routes, Route} from 'react-router-dom'
 import {New} from '../pages/New'
 import {Home} from '../pages/Home'
-import {Profile} from '../pages/Profile'
+import {Profile} from '../pages/profile'
 import {Details} from '../pages/Details'
 
 export function AppRoutes(){
