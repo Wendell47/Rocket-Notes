@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import { Link } from "react-router-dom";
 
 export const Container = styled.div`
 
@@ -61,9 +61,10 @@ grid-area: content;
 
 `;
 
-export const NewNote =styled.button`
+export const NewNote =styled(Link)`
 grid-area: newnote;
     background-color: var(--color-primary);
+    color: var(--bg-color-900);
     border:none;
     display: flex;
     align-items: center;

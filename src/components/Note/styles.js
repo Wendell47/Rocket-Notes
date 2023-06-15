@@ -24,6 +24,6 @@ margin-bottom: 16px;
 > footer{
     width: 100%;
     display:flex;
-    
+    margin-top: 24px;
 }
 `;

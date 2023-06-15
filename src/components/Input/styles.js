@@ -26,7 +26,7 @@ export const Container = styled.div`
         background: transparent;
         border: 0;
 
-        &:placeholder{
+        &::placeholder{
             color: var(--color-gray-300);
             
         }
